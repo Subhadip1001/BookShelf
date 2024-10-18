@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Subhadip1001/BookShelf.git"
+  },
+  "author": "Subhadip Mandal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Subhadip1001/BookShelf/issues"
+  },
+  "homepage": "https://github.com/Subhadip1001/BookShelf#readme",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.1",
+    "nodemon": "^3.1.7"
+  }
+}
