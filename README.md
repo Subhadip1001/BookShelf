@@ -17,10 +17,13 @@ Currently, two official plugins are available:
 
 The backend of the BookShelf project provides the following endpoints:
 
-- `GET /api/books`: Retrieve a list of all books.
-- `GET /api/books/:id`: Retrieve details of a specific book by its ID.
-- `POST /api/books`: Add a new book to the collection.
-- `PUT /api/books/:id`: Update the details of a specific book by its ID.
-- `DELETE /api/books/:id`: Remove a specific book by its ID.
+### User Authentication
+- `POST /user/signup`: Create a new user account
+- `POST /user/login`: Login with existing credentials
+
+### Books Management
+- `GET /books`: Get all books
+
+These endpoints are accessible at `http://localhost:4001` base URL as configured in the client application.
 
 ![image alt](https://github.com/Subhadip1001/BookShelf/blob/7a9617b4487c2b67d07d038258007b046a3b06ca/Screenshot%20(20).png)
